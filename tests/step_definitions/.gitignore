@@ -1,0 +1,37 @@
+# 👉 Fichiers Python inutiles
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 👉 Environnement virtuel (à ne surtout pas push)
+venv/
+.env/
+.venv/
+
+# 👉 Rapports de test
+*.html
+*.xml
+report.html
+output.xml
+
+# 👉 Pytest cache
+.cache/
+
+# 👉 Fichiers VS Code
+.vscode/
+
+# 👉 Données personnelles ou locales
+*.log
+*.db
+.DS_Store
+*.swp
+
+# 👉 Fichiers spécifiques à Windows ou Mac
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# 👉 Données sensibles (au cas où)
+secrets.json
+*.key
