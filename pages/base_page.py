@@ -12,7 +12,7 @@ class BasePage:
     def get_text(self, by, value):
         return self.find_element(by, value).text
 
-    def find_elements(self, by, value):  # 💥 C’est ça qui manque !
+    def find_elements(self, by, value):  
         return self.driver.find_elements(by, value)
 
     def click_element(self, by, value):
