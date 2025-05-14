@@ -42,8 +42,8 @@ def ajout_deux(login_user):
     login_user.add_top_two_products_to_cart()
 
 @when("il accède au panier et clique sur Checkout")
-def aller_checkout():  # cette étape est remplacée par la fixture `checkout_page`
-    pass  # rien à faire ici car `checkout_page` est injectée dans les étapes suivantes
+def aller_checkout():  
+    pass  
 
 @when(parsers.parse('il saisit les informations de livraison "{prenom}" "{nom}" "{code_postal}"'))
 def saisie_infos(checkout_page, prenom, nom, code_postal):
@@ -66,5 +66,5 @@ def verif_confirmation(checkout_page):
 
 @then("les produits doivent être triés correctement")
 def produits_triés():
-    # À implémenter si tu veux comparer les prix
+    
     pass
