@@ -3,7 +3,7 @@ from pytest_bdd import scenarios, given, when, then, parsers
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
 
-# Charger le fichier .feature
+
 scenarios("../features/checkout.feature")
 
 
